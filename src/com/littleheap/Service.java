@@ -83,7 +83,7 @@ class Service extends JFrame{
 				}			
 			}
 		});		
-		//群发消息输入框配置
+//群发消息输入框配置
 		jtf.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {				
 				for(int i=0;i<users.size();i++){
